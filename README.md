@@ -1,0 +1,2 @@
+# ovpncheck
+OpenVPN credentials check
