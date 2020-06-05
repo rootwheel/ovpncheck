@@ -1,4 +1,8 @@
 ## OpenVPN Credentials check
+**Using:**
+
+`ovpncheck.sh <credlist.txt>`
+
 **Require:**
 
 `credlist.txt` - list of usernames and passwords as `username:password`
