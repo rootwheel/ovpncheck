@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 cd "$(dirname "$0")"
 # Colorize
@@ -21,7 +21,7 @@ for ((i=0; i < ${#CREDS[*]}; i++))
                 printf '%s\n' "Login ${GREEN}SUCCESS${NORMAL} ${CREDS[i]}"
                 printf '%s\n' "Login SUCCESS ${CREDS[i]}" >> checklog.txt
 		else
-                printf '%s\n' "Login ${RED}FAILED${NORMAL} ${CREDS[i]}"
+                printf '%s\n' "Login ${RED}FAILED${NORMAL}  ${CREDS[i]}"
                 printf '%s\n' "Login FAILED ${CREDS[i]}"  >> checklog.txt
 
         fi
